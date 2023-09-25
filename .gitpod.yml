@@ -1,7 +1,7 @@
 tasks:
     - name: Start web server
-      init: python -m http.server 8000
+      init: python -m http.server 1593
 
 ports:
-    - port: 8000
+    - port: 1593
       onOpen: open-preview
